@@ -6,7 +6,10 @@
 ## Steps 
 - Clone repository
 - Create '.env' file
-- Insert in the env 'AIRFLOW_UID=50000'
+- Insert in the .env 
+```bash
+ AIRFLOW_UID=50000
+ ```
 - run the following cmd at the root directory
 ```bash 
 docker compose up airflow-init
